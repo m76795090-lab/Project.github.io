@@ -1,2 +1,2 @@
-# Project.github.io
+# mahan.github.io
 My project
