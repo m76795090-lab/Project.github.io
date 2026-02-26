@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(Ubuntu-Regular.ttf);
+}
+body {
+  background-color: #202124;
+  font-family: Ubuntu-Regular;
+
+}
+i.fa{
+  color: #BB86FC;
+}
+hr{
+  margin: 0 auto;
+  border-color: #808080;
+  height: 5px;
+}
+.container {
+  width: 98%;
+  padding: 1%;
+}
+.left-side {
+  background-color: #303134;
+  display: inline-block;
+  width: 25%;
+  margin: 0.5%;
+  vertical-align: top;
+  border-radius: 3px;
+}
+.right-side {
+  display: inline-block;
+  width: 72%;
+  margin: 0.5%;
+  vertical-align: top;
+}
+.right-side section {
+  background-color: #303134;
+  margin-bottom: 2%;
+  border-radius: 3px;
+  padding: 30px;
+}
+.profile-box{
+  position: relative;
+}
+#profile-img{
+  width:100%;
+  border-radius: 3px 3px 0 0;
+}
+footer{
+  background-color: #BB86FC;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 20px 0px;
+  color: #fff;
+  font-size: 24px;
+}
+footer a{
+  color:#fff;
+}
+.profile-box #profile-name{
+  width: 96%;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+  position: absolute;
+  bottom: 2px;
+  font-size: 24px;
+}
+#dis-box{
+  padding: 15px;
+}
+#dis-box ul{
+  list-style: none;
+}
+#dis-box ul li i.fa{
+  font-size: 18px;
+  color:#BB86FC;
+}
+#dis-box ul li{
+  margin-bottom: 15px;
+}
+#dis-box ul li span{
+  font-size: 16px;
+  margin-left: 10px;
+  color: #fff;
+}
+.aside-items{
+  padding: 15px;
+  color: #fff;
+}
+.item-title{
+  margin-left: 5px;
+}
+.progrees-box{
+  background-color: #eee;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+.progrees-box .progrees-bar{
+  background-color: #BB86FC;
+  padding: 2px;
+  border-radius: 15px;
+}
+.skils-item{
+  margin-top: 15px;
+}
+.pb50{
+  width: 50%;
+}
+h1.head-title{
+  font-size: 28px;
+  color: #fff;
+}
+.right-side-items{
+  color: white;
+}
+.right-side-items h3,
+.right-side-items h4{
+   margin: 18.5px 0;
+}
+.right-side-items p{
+  margin: 15px 0 40px ;
+}
+.lable{
+  padding: 3px 5px;
+  background-color: #BB86FC;
+  border-radius: 5px;
+}
+@media only screen and (max-width:768px) {
+  .left-side{
+    display: block;
+    width: 99%;
+  }
+    .right-side{
+    display: block;
+    width: 99%;
+  }
+}
+.pbar{
+  color: black;
+}
